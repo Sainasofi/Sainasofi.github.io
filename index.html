@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SainaWrites</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+<link rel="icon" type="image/x-icon" href="favicon1.ico">
+</head>
+<body>
+    <header>
+        <h2>Saina Sofi</h2>
+        <img src="https://m.media-amazon.com/images/S/amzn-author-media-prod/snhcb7n9t58q29i2v0hbb2po2l._SY450_CR0%2C0%2C450%2C450_.jpg" class="author-logo" alt="Saina Sofi">
+        <div class="about-author">
+            <p><strong><em></em></strong> Saina moves through the ordinary world with ease, but beneath that calm surface lies a mind drawn to the shadows. Her poetry collections, Hushed Aches and From the Attic, unravel the quiet complexities of human emotion, while their fiction ventures deeper into the unknown.
+
+                With A Tapestry of Time and The Cursed Bloodline, Saina explores the darker threads of existence—where the supernatural seeps into reality, and every secret has a pulse of its own. Her fascination with the eerie took root in childhood, shaped by creaking floorboards, half-glimpsed figures, and the unsettling feeling that something was always watching.
+                
+                Through stories woven with both fragility and fear, Saina invites readers to step beyond the veil and linger in the spaces where reality grows thin.</p>
+        </div>
+        <div class="tabs">
+            <a href="#" class="tab" id="contactTab" onclick="openModal('contactModal')">Contact</a>
+            <a href="#" class="tab" id="followTab" onclick="openModal('followModal')">Follow Me</a>
+            <a href="#reviewsSection" class="tab" id="reviewsTab">Reviews</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="book-container">
+            <div class="book">
+                <img src="https://m.media-amazon.com/images/I/51147+8dKhL._SL1200_.jpg" alt="Hushed Aches">
+                <h3>Hushed Aches</h3>
+                <p>"A story about battling inner darkness and defying fate, The Cursed Bloodline explores the thin line between love and destiny."</p>
+                <a href="https://www.amazon.in/Hushed-Aches-Saina-Sofi/dp/1638504059" target="_blank" class="buy-now">Buy Now</a>
+            </div>
+
+            <div class="book">
+                <img src="https://m.media-amazon.com/images/I/71V6fO1rVbL._SL1500_.jpg" alt="The Cursed Bloodline">
+                <h3>The Cursed Bloodline</h3>
+                <p>"A collection of hidden emotions and fleeting moments, From the Attic speaks to the quiet parts of the soul we often overlook."</p>
+                <a href="https://www.amazon.in/Cursed-Bloodline-Saina-Sofi/dp/936083422X" target="_blank" class="buy-now">Buy Now</a>
+            </div>
+
+            <div class="book">
+                <img src="https://m.media-amazon.com/images/I/81z1HdwBsQL._SL1500_.jpg" alt="The Tapestry of Time">
+                <h3>The Tapestry of Time</h3>
+                <p>"A heartfelt exploration of silent sorrows, Hushed Aches captures the unspoken emotions we carry within."</p>
+                <a href="https://www.amazon.in/Tapestry-Time-Weaving-Threads-Death-ebook/dp/B0CCRXFW68" target="_blank" class="buy-now">Buy Now</a>
+            </div>
+
+            <div class="book">
+                <img src="https://m.media-amazon.com/images/I/71akbvEmxTL._SL1500_.jpg" alt="From The Attic">
+                <h3>From The Attic</h3>
+                <p>"A journey through love, loss, and destiny, Tapestry of Time weaves moments that shape who we are across the threads of time."</p>
+                <a href="https://www.amazon.in/Poetry-book-Attic-Saina-Sofi/dp/8119609824" target="_blank" class="buy-now">Buy Now</a>
+            </div>
+        </section>
+
+        <section class="reviews" id="reviewsSection">
+            <h2>Top Reviews</h2>
+            <div class="review" id="review1">
+                <p><strong></strong> "Every poem in From the Attic feels like a whispered secret from the heart. Raw, authentic, and deeply moving."<br>
+
+                    "A beautiful collection that blends emotion with vivid imagery. It’s the kind of poetry you return to again and again." </p>
+            </div>
+            <div class="review" id="review2">
+                <p><strong></strong> 
+                    "Intriguing, emotional, and filled with twists—I couldn’t put it down! The Cursed Bloodline is a must-read for paranormal lovers." <br>
+                    "The perfect blend of suspense, supernatural elements, and romance. Sylvia’s choices had me on the edge of my seat!" </p>
+            </div>
+            <div class="review" id="review3">
+                <p><strong></strong> 
+                    "Every poem in Hushed Aches feels like a soft echo of unspoken emotions—delicate, heartfelt, and hauntingly beautiful." <br>
+                    "This collection speaks to the silent sorrows we often hide. Simple words, deep impact—a poetic masterpiece."</p>
+            <div class="review" id="review4">
+                <p><strong></strong> 
+                    "A timeless novella that explores love, loss, and destiny with breathtaking elegance. Unputdownable!" <br>
+                    "Intricately crafted and emotionally gripping, Tapestry of Time is a journey through moments that shape us." 
+                  
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-icons">
+                <a href="https://www.instagram.com/sainaawrites" target="_blank" class="social-icon instagram"></a>
+                <a href="https://www.linkedin.com/in/saina-sofi-3b47ba265/" target="_blank" class="social-icon linkedin"></a>
+                <a href="https://twitter.com/sainasofi" target="_blank" class="social-icon twitter"></a>
+                <a href="https://medium.com/@sainawrites" target="_blank" class="social-icon medium"></a>
+            </div>
+            <p>© 2025 Sainawrites. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <div class="modal" id="contactModal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('contactModal')">&times;</span>
+            <h3>Contact</h3>
+            <p>Email: <a href="mailto:sainaspoetry@gmail.com">sainaspoetry@gmail.com</a></p>
+        </div>
+    </div>
+
+    <div class="modal" id="followModal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('followModal')">&times;</span>
+            <h3>Follow Me</h3>
+            <p>Instagram: <a href="https://instagram.com/sainaawrites" target="_blank">sainaawrites</a></p>
+        </div>
+    </div>
+</body>
+</html>
